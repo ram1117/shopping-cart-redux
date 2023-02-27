@@ -1,8 +1,11 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import CartContainer from './components/CartContainer';
 
 const App = () => (
   <div className="App">
-    <h1>Welcome</h1>
+    <Navbar />
+    <CartContainer />
   </div>
 );
 

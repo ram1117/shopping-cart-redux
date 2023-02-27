@@ -15,3 +15,56 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav svg {
+  width: 40px;
+  color: var(--clr-white);
+}
+
+.nav-container {
+  display: block;
+  position: relative;
+}
+
+.amount-container {
+  position: absolute;
+  top: -0.6em;
+  right: -0.6em;
+  border-radius: 50%;
+
+}
+
+.cartitem-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cartitem-container>img {
+  width: 180px;
+}
+
+.cartitem-container>svg {
+  width: 40px;
+}
+
+.amount-btn {
+  width: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.amount-btn svg {
+  color: var(--clr-primary);
+}
+
+.amount-btn:hover svg {
+  color: var(--clr-primary-light);
+}
