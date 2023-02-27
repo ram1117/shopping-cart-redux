@@ -37,7 +37,6 @@ nav svg {
   top: -0.6em;
   right: -0.6em;
   border-radius: 50%;
-
 }
 
 .cartitem-container {
@@ -46,11 +45,11 @@ nav svg {
   align-items: center;
 }
 
-.cartitem-container>img {
+.cartitem-container > img {
   width: 180px;
 }
 
-.cartitem-container>svg {
+.cartitem-container > svg {
   width: 40px;
 }
 
